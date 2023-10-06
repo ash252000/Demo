@@ -32,7 +32,17 @@
 			  "timeOutInSec": 120
             }
           ]
-        },	
+        },
+      {
+          "step": "adbShell",
+          "input": [
+            {
+              "command": "mount -o rw,remount /",
+              "asRoot": true,
+			  "timeOutInSec": 60
+            }
+          ]
+        },
 		{
           "step": "adbShell",
           "input": [
